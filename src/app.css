@@ -1,0 +1,123 @@
+
+	h1 { font-family: Futura, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 19px; } 
+	h3 { font-family: Futura, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 19px; } 
+	body { font-family: Futura, sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 80; line-height: 19px; } 
+	blockquote { font-family: Futura, sans-serif, "Trebuchet MS", Arial, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 19px; } pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 10px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 19px; }
+
+[class^=ais-] {
+    font-size: 0.75rem;
+    box-sizing: border-box;
+}
+/**
+ * CurrentRefinements
+ */
+.ais-CurrentRefinements { margin-bottom: 0.6rem; }
+.ais-CurrentRefinements-list {
+  display: inline-grid;
+  gap: 0.4rem;
+  grid-auto-flow: column; }
+
+.ais-Pagination {
+margin-top:10px;
+}
+.ais-CurrentRefinements-item {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #202225;
+  border: 1px solid #b6b7d5;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  min-height: 1.5rem;
+  padding: 0.05rem 0.5rem; }
+
+.ais-CurrentRefinements-category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0.5rem; 
+}
+
+.ais-CurrentRefinements-delete {
+  color: #9698c3;
+  height: 100%;
+  margin-left: 0.25rem;
+  outline-width: 0; 
+}
+.ais-Hits--empty {
+  color: #ffffff;
+}
+.ais-SearchBox-resetIcon path,.ais-SearchBox-submitIcon path {
+    fill: #ffffff
+}
+@media (max-width: 992px) {
+	.container-results{padding: 0 5px;}
+}
+
+/* Pure Tree to move if validated */
+.pure-tree {
+  text-align: left;
+  display: block;
+}
+.pure-tree.main-tree {
+  width: 80%;
+  display: inline-block;
+}
+.pure-tree:not(.main-tree) {
+  padding-left: 1.2em;
+}
+.pure-tree:not(.main-tree) li {
+  overflow: hidden;
+  height: 0;
+  display: block;
+}
+.pure-tree label {
+  display: block;
+  cursor: pointer;
+  color: #ffffff;
+  border-bottom: 1px dashed #fcfcfc;
+  padding: 1.125em 1.125em 1.125em 0;
+}
+.pure-tree label:before {
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  display: inline-block;
+  font-family: 'FontAwesome', sans-serif;
+  content: "\f114";
+  padding-right: .75em;
+}
+.pure-tree label:hover {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.pure-tree .pure-tree_link a {
+  padding: 1.500em 1.125em 0.750em 3em;
+  display: block;
+  border-radius: .2em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.pure-tree .pure-tree_link a:hover {
+  color: #ffffff;
+}
+.pure-tree.nested {
+  padding-left: 1.7em;
+}
+.pure-tree [type="checkbox"] {
+  display: none;
+}
+.pure-tree [type="checkbox"]:checked + label {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.pure-tree [type="checkbox"]:checked ~ ul > li {
+  height: auto;
+}
