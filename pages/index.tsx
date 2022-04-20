@@ -11,6 +11,10 @@ import useUserAsks from 'hooks/useUserAsks'
 import { useAccount } from 'wagmi'
 import { FiExternalLink } from 'react-icons/fi'
 import MultiBuy from 'components/MultiBuy'
+import 'css/style.css'
+import 'css/style-item.css'
+import 'sidebar.css'
+import 'lightgallery.css'
 
 const IndexPage = () => {
   // wagmi hooks
