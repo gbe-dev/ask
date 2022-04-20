@@ -25,15 +25,22 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <h1 className="reservoir-h1 mb-2 mt-6 md:mt-28">Reservoir Router Demo</h1>
-      <a
-        className="reservoir-h5 inline-flex items-center mb-2"
-        href="https://github.com/reservoirprotocol/router-demo"
-        rel="norefereer noopener"
-      >
-        Source code
-        <FiExternalLink className="w-4 h-4 ml-2" />
-      </a>
+      <header class="header sticky-top">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-6 col-md-4"><a id="btn-login" href="https://www.afprojects.com/x-2016/nft-web-x/index-as10k.html"><img src="images/logo.png" width="130"/></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+               </div>
+               <div class="col-sm-6 col-md-4">
+                  <div id="searchbox" class="ais-SearchBox"></div>
+               </div>
+               <div class="col-sm-12 col-md-4"></div>
+            </div>
+         </div>
+      </header>
+
       <br />
       <div className="grid place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mb-12">
         <ConnectWallet />
