@@ -35,33 +35,11 @@ const IndexPage = () => {
         <FiExternalLink className="w-4 h-4 ml-2" />
       </a>
       <br />
-      <a
-        className="reservoir-h5 inline-flex items-center mb-2"
-        href="https://reservoirprotocol.github.io/docs/api/use-cases/execute-orders"
-        rel="norefereer noopener"
-      >
-        Router documentation
-        <FiExternalLink className="w-4 h-4 ml-2" />
-      </a>
-      <br />
-      <a
-        className="reservoir-h5 inline-flex items-center mb-14"
-        href="https://github.com/reservoirprotocol/client-sdk"
-        rel="norefereer noopener"
-      >
-        @reservoir0x/client-sdk
-        <FiExternalLink className="w-4 h-4 ml-2" />
-      </a>
       <div className="grid place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mb-12">
         <ConnectWallet />
         <Buy />
         <List orders={orders} />
         <Cancel orders={orders} />
-        <Accept />
-        <TokenOffer />
-        <CollectionOffer />
-        <AttributeOffer />
-        <MultiBuy />
       </div>
       <p className="mb-4">
         This demo is using the{' '}
