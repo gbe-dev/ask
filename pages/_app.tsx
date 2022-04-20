@@ -1,4 +1,8 @@
 import 'styles/globals.css'
+import 'css/style.css'
+import 'css/style-item.css'
+import 'css/sidebar.css'
+import 'css/lightgallery.css'
 import type { AppProps } from 'next/app'
 import { Provider } from 'wagmi'
 
