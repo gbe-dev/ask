@@ -25,18 +25,18 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <header class="header sticky-top">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-sm-6 col-md-4"><a id="btn-login" href="https://www.afprojects.com/x-2016/nft-web-x/index-as10k.html"><img src="images/logo.png" width="130"/></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+      <header className="header sticky-top">
+         <div className="container-fluid">
+            <div className="row">
+               <div className="col-sm-6 col-md-4"><a id="btn-login" href="https://www.afprojects.com/x-2016/nft-web-x/index-as10k.html"><img src="images/logo.png" width="130"/></a>
+                  <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span className="navbar-toggler-icon"></span>
                   </button>
                </div>
-               <div class="col-sm-6 col-md-4">
-                  <div id="searchbox" class="ais-SearchBox"></div>
+               <div className="col-sm-6 col-md-4">
+                  <div id="searchbox" className="ais-SearchBox"></div>
                </div>
-               <div class="col-sm-12 col-md-4"></div>
+               <div className="col-sm-12 col-md-4"></div>
             </div>
          </div>
       </header>
