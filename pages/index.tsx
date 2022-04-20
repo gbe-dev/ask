@@ -28,7 +28,7 @@ const IndexPage = () => {
       <header className="header sticky-top">
          <div className="container-fluid">
             <div className="row">
-               <div className="col-sm-6 col-md-4"><a id="btn-login" href="https://www.afprojects.com/x-2016/nft-web-x/index-as10k.html"><img src="images/logo.png" width="130"/></a>
+               <div className="col-sm-6 col-md-4"><a id="btn-login" href="https://www.afprojects.com/x-2016/nft-web-x/index-as10k.html"><img src="https://www.afprojects.com/x-2016/nft-web-x/images/logo.png" width="130"/></a>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                   </button>
@@ -36,14 +36,14 @@ const IndexPage = () => {
                <div className="col-sm-6 col-md-4">
                   <div id="searchbox" className="ais-SearchBox"></div>
                </div>
-               <div className="col-sm-12 col-md-4"></div>
+               <div className="col-sm-12 col-md-4"><ConnectWallet /></div>
             </div>
          </div>
       </header>
 
       <br />
       <div className="grid place-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mb-12">
-        <ConnectWallet />
+        
         <Buy />
         <List orders={orders} />
         <Cancel orders={orders} />
