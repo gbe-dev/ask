@@ -1,3 +1,8 @@
+import 'styles/globals.css'
+import 'css/style.css'
+import 'css/style-item.css'
+import 'css/sidebar.css'
+import 'css/lightgallery.css'
 import Accept from 'components/Accept'
 import AttributeOffer from 'components/AttributeOffer'
 import Buy from 'components/Buy'
@@ -23,6 +28,8 @@ const IndexPage = () => {
   const orders = useUserAsks(accountData?.address)
   const userAddress = accountData?.address
 
+
+  
   return (
     <Layout>
       <header className="header sticky-top">
