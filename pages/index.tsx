@@ -48,40 +48,6 @@ const IndexPage = () => {
         <List orders={orders} />
         <Cancel orders={orders} />
       </div>
-      <p className="mb-4">
-        This demo is using the{' '}
-        <a
-          className="underline"
-          target="_blank"
-          href="https://www.reservoir.fun/collections/0x4d68e14cd7dec510c84326f54ee41f88e8fad59b"
-          rel="norefereer noopener"
-        >
-          Reservoir 721
-        </a>{' '}
-        and{' '}
-        <a
-          className="underline"
-          target="_blank"
-          href="https://www.reservoir.fun/collections/0xfb8695dc919078c37fe507b800e2c33ed3d815d8"
-          rel="norefereer noopener"
-        >
-          Reservoir 1155
-        </a>{' '}
-        collections on Rinkeby.
-      </p>
-      {userAddress && (
-        <p>
-          View your Rinkeby orders on{' '}
-          <a
-            className="underline"
-            target="_blank"
-            href={`https://www.reservoir.fun/address/${userAddress}`}
-          >
-            Reservoir Market Testnet
-          </a>
-          .
-        </p>
-      )}
     </Layout>
   )
 }
