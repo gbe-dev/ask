@@ -16,6 +16,7 @@ import 'css/style-item.css'
 import 'css/sidebar.css'
 import 'css/lightgallery.css'
 
+
 const IndexPage = () => {
   // wagmi hooks
   const [{ data: accountData }] = useAccount()
