@@ -13,8 +13,8 @@ import { FiExternalLink } from 'react-icons/fi'
 import MultiBuy from 'components/MultiBuy'
 import 'css/style.css'
 import 'css/style-item.css'
-import 'sidebar.css'
-import 'lightgallery.css'
+import 'css/sidebar.css'
+import 'css/lightgallery.css'
 
 const IndexPage = () => {
   // wagmi hooks
